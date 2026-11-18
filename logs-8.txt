@@ -1,0 +1,144 @@
+redis-1  | 1:C 18 Nov 2026 12:19:40.554 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+redis-1  | 1:C 18 Nov 2026 12:19:40.554 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+redis-1  | 1:C 18 Nov 2026 12:19:40.554 * Redis version=7.4.12, bits=64, commit=00000000, modified=0, pid=1, just started
+redis-1  | 1:C 18 Nov 2026 12:19:40.554 * Configuration loaded
+redis-1  | 1:M 18 Nov 2026 12:19:40.555 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+redis-1  | 1:M 18 Nov 2026 12:19:40.555 * monotonic clock: POSIX clock_gettime
+redis-1  | 1:M 18 Nov 2026 12:19:40.558 * Running mode=standalone, port=6379.
+redis-1  | 1:M 18 Nov 2026 12:19:40.559 * Server initialized
+redis-1  | 1:M 18 Nov 2026 12:19:40.560 * Reading RDB base file on AOF loading...
+redis-1  | 1:M 18 Nov 2026 12:19:40.560 * Loading RDB produced by version 7.4.12
+redis-1  | 1:M 18 Nov 2026 12:19:40.560 * RDB age 251 seconds
+redis-1  | 1:M 18 Nov 2026 12:19:40.560 * RDB memory usage when created 0.90 Mb
+redis-1  | 1:M 18 Nov 2026 12:19:40.560 * RDB is base AOF
+redis-1  | 1:M 18 Nov 2026 12:19:40.560 * Done loading RDB, keys loaded: 0, keys expired: 0.
+redis-1  | 1:M 18 Nov 2026 12:19:40.561 * DB loaded from base file appendonly.aof.1.base.rdb: 0.001 seconds
+redis-1  | 1:M 18 Nov 2026 12:19:40.562 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.001 seconds
+redis-1  | 1:M 18 Nov 2026 12:19:40.562 * DB loaded from append only file: 0.002 seconds
+redis-1  | 1:M 18 Nov 2026 12:19:40.562 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+redis-1  | 1:M 18 Nov 2026 12:19:40.562 * Ready to accept connections tcp
+redis-1  | 1:signal-handler (1795004418) Received SIGTERM scheduling shutdown...
+redis-1  | 1:M 18 Nov 2026 12:20:18.585 * User requested shutdown...
+redis-1  | 1:M 18 Nov 2026 12:20:18.585 * Calling fsync() on the AOF file.
+redis-1  | 1:M 18 Nov 2026 12:20:18.592 * Saving the final RDB snapshot before exiting.
+redis-1  | 1:M 18 Nov 2026 12:20:18.599 * DB saved on disk
+redis-1  | 1:M 18 Nov 2026 12:20:18.599 # Redis is now ready to exit, bye bye...
+redis-1  | 1:C 18 Nov 2026 12:22:15.739 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+redis-1  | 1:C 18 Nov 2026 12:22:15.740 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+redis-1  | 1:C 18 Nov 2026 12:22:15.740 * Redis version=7.4.12, bits=64, commit=00000000, modified=0, pid=1, just started
+redis-1  | 1:C 18 Nov 2026 12:22:15.740 * Configuration loaded
+redis-1  | 1:M 18 Nov 2026 12:22:15.741 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+redis-1  | 1:M 18 Nov 2026 12:22:15.741 * monotonic clock: POSIX clock_gettime
+redis-1  | 1:M 18 Nov 2026 12:22:15.743 * Running mode=standalone, port=6379.
+redis-1  | 1:M 18 Nov 2026 12:22:15.744 * Server initialized
+redis-1  | 1:M 18 Nov 2026 12:22:15.745 * Reading RDB base file on AOF loading...
+redis-1  | 1:M 18 Nov 2026 12:22:15.745 * Loading RDB produced by version 7.4.12
+redis-1  | 1:M 18 Nov 2026 12:22:15.745 * RDB age 406 seconds
+redis-1  | 1:M 18 Nov 2026 12:22:15.746 * RDB memory usage when created 0.90 Mb
+redis-1  | 1:M 18 Nov 2026 12:22:15.746 * RDB is base AOF
+redis-1  | 1:M 18 Nov 2026 12:22:15.746 * Done loading RDB, keys loaded: 0, keys expired: 0.
+redis-1  | 1:M 18 Nov 2026 12:22:15.746 * DB loaded from base file appendonly.aof.1.base.rdb: 0.001 seconds
+redis-1  | 1:M 18 Nov 2026 12:22:15.747 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.001 seconds
+redis-1  | 1:M 18 Nov 2026 12:22:15.747 * DB loaded from append only file: 0.002 seconds
+redis-1  | 1:M 18 Nov 2026 12:22:15.747 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+redis-1  | 1:M 18 Nov 2026 12:22:15.747 * Ready to accept connections tcp
+app-1    |   File "/usr/local/lib/python3.13/site-packages/redis/connection.py", line 358, in <lambda>
+app-1    |     lambda: self._connect(), lambda error: self.disconnect(error)
+app-1    |             ~~~~~~~~~~~~~^^
+app-1    |   File "/usr/local/lib/python3.13/site-packages/redis/connection.py", line 698, in _connect
+app-1    |     for res in socket.getaddrinfo(
+app-1    |                ~~~~~~~~~~~~~~~~~~^
+app-1    |         self.host, self.port, self.socket_type, socket.SOCK_STREAM
+app-1    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+app-1    |     ):
+app-1    |     ^
+app-1    |   File "/usr/local/lib/python3.13/socket.py", line 983, in getaddrinfo
+app-1    |     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+app-1    |                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+app-1    | socket.gaierror: [Errno -5] No address associated with hostname
+app-1    | 
+app-1    | During handling of the above exception, another exception occurred:
+app-1    | 
+app-1    | Traceback (most recent call last):
+app-1    |   File "/app/app.py", line 108, in do_GET
+app-1    |     counter.ready()
+app-1    |     ~~~~~~~~~~~~~^^
+app-1    |   File "/app/app.py", line 72, in ready
+app-1    |     self.client.ping()
+app-1    |     ~~~~~~~~~~~~~~~~^^
+app-1    |   File "/usr/local/lib/python3.13/site-packages/redis/commands/core.py", line 1212, in ping
+app-1    |     return self.execute_command("PING", **kwargs)
+app-1    |            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+app-1    |   File "/usr/local/lib/python3.13/site-packages/redis/client.py", line 559, in execute_command
+app-1    |     return self._execute_command(*args, **options)
+app-1    |            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+app-1    |   File "/usr/local/lib/python3.13/site-packages/redis/client.py", line 565, in _execute_command
+app-1    |     conn = self.connection or pool.get_connection(command_name, **options)
+app-1    |                               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+app-1    |   File "/usr/local/lib/python3.13/site-packages/redis/connection.py", line 1422, in get_connection
+app-1    |     connection.connect()
+app-1    |     ~~~~~~~~~~~~~~~~~~^^
+app-1    |   File "/usr/local/lib/python3.13/site-packages/redis/connection.py", line 363, in connect
+app-1    |     raise ConnectionError(self._error_message(e))
+app-1    | redis.exceptions.ConnectionError: Error -5 connecting to redis:6379. No address associated with hostname.
+app-1    | 
+app-1    | During handling of the above exception, another exception occurred:
+app-1    | 
+app-1    | Traceback (most recent call last):
+app-1    |   File "/usr/local/lib/python3.13/socketserver.py", line 697, in process_request_thread
+app-1    |     self.finish_request(request, client_address)
+app-1    |     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+app-1    |   File "/usr/local/lib/python3.13/socketserver.py", line 362, in finish_request
+app-1    |     self.RequestHandlerClass(request, client_address, self)
+app-1    |     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+app-1    |   File "/usr/local/lib/python3.13/socketserver.py", line 766, in __init__
+app-1    |     self.handle()
+app-1    |     ~~~~~~~~~~~^^
+app-1    |   File "/usr/local/lib/python3.13/http/server.py", line 451, in handle
+app-1    |     self.handle_one_request()
+app-1    |     ~~~~~~~~~~~~~~~~~~~~~~~^^
+app-1    |   File "/usr/local/lib/python3.13/http/server.py", line 439, in handle_one_request
+app-1    |     method()
+app-1    |     ~~~~~~^^
+app-1    |   File "/app/app.py", line 121, in do_GET
+app-1    |     self.unavailable(exc)
+app-1    |     ~~~~~~~~~~~~~~~~^^^^^
+app-1    |   File "/app/app.py", line 96, in unavailable
+app-1    |     self.send_json(503, {"error": "storage_unavailable"})
+app-1    |     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+app-1    |   File "/app/app.py", line 84, in send_json
+app-1    |     self.wfile.write(body)
+app-1    |     ~~~~~~~~~~~~~~~~^^^^^^
+app-1    |   File "/usr/local/lib/python3.13/socketserver.py", line 845, in write
+app-1    |     self._sock.sendall(b)
+app-1    |     ~~~~~~~~~~~~~~~~~~^^^
+app-1    | BrokenPipeError: [Errno 32] Broken pipe
+app-1    | ----------------------------------------
+app-1    | 2026-11-18 12:22:17,946 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:22:23,101 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:22:25,757 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:22:30,977 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:22:36,152 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:22:41,350 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:22:46,486 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:22:51,633 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:22:54,325 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:22:55,537 http 172.18.0.1 "GET / HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:00,161 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:05,420 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:10,606 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:15,759 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:20,914 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:22,018 http 172.18.0.1 "POST /increment HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:23,565 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:28,706 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:33,863 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:39,008 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:44,175 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:49,315 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:51,851 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:23:57,017 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:24:02,160 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:24:07,344 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:24:12,522 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
+app-1    | 2026-11-18 12:24:17,703 http 127.0.0.1 "GET /readyz HTTP/1.1" 200 -
